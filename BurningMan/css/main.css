@@ -1,0 +1,139 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: 000;
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 19px;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding-top: 113px;
+}
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+}
+.container {
+  width: 1170px;
+  /* позиционирование по центру */
+  margin: 0 auto;
+}
+.header {
+  background: url("../img/header-bg.jpg") no-repeat center top / cover;
+  /* для первого элемента писать padding */
+  padding-top: 57px;
+  color: #ffffff;
+  padding-bottom: 322px;
+}
+header a {
+  color: #fff;
+}
+.logo {
+  margin-right: 69px;
+}
+.menu {
+  /* для того что бы все элементы выровнялись в одну линию (а именно ссылки в шапке) */
+  display: flex;
+}
+.menu li a {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-right: 40px;
+  letter-spacing: 0.1em;
+}
+.tel {
+  font-size: 17px;
+  margin-left: auto;
+  letter-spacing: 0.1em;
+}
+.nav {
+  display: flex;
+  /* если нам нужно что бы элементы флекса были на одном уровне, писать align-items:center */
+  align-items: center;
+}
+.offer {
+  text-transform: uppercase;
+  margin-top: 216px;
+}
+
+.offer p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+.offer h1 {
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+}
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+}
+.description {
+  display: flex;
+  /*  для контейнера флекс данное свойство позволяет прибить каждый элемент родителя 
+  дескрипшн к левому краю*/
+  justify-content: space-between;
+}
+.description p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  /* позволяет установить перенос текста на одном и том же уровне */
+  text-align: justify;
+  line-height: 1.62em;
+}
+.desc-left,
+.desc-right {
+  /* display: flex; */
+  /* font-style: 16px; */
+  width: 567px;
+}
+.gallary {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  display: flex;
+  padding: 114px 0;
+}
+.footer-text p {
+  margin-right: 67px;
+}
